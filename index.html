@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+    <!-- font-family: 'Roboto Condensed', sans-serif; -->
+    <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;700&display=swap" rel="stylesheet">
+    <!-- font-family: 'Oxygen', sans-serif; -->
+    <title>MCash : Dail rewards</title>
+</head>
+
+<body>
+    <div class="container">
+        <nav id="nav">
+            <nav class="site-header">
+                <div class="nav-logo">
+                    <a href="https://play.google.com/store/apps/details?id=in.mcash.app&hl=en_IN&gl=US">
+                        <img src="mcash.png" alt="logo" data-aos="fade">
+                    </a>
+                </div>
+                <button class="hamburger"><img id="ham"
+                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Hamburger_icon_white.svg/1024px-Hamburger_icon_white.svg.png"
+                        style="font-size:12px; height:20px; width:20px; color: white;" alt="menu toggle icon"></button>
+                <div class="nav-links">
+                    <ul>
+                        <!-- <li><a href="index.html">Home</a></li> -->
+                        <li><a id="joinbtn" target="_blank"
+                                href="https://play.google.com/store/apps/details?id=in.mcash.app&hl=en_IN&gl=US">DOWNLOAD NOW</a></li>
+                        <li><a href="#">Tasks</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </nav>
+
+        <section class="banner">
+
+            <div class="banner--content ">
+                <h1 class="designation" style="color: white;" data-aos="fade">MCASH</h1>
+                <h2 class="name" style="color: rgba(255, 255, 255, 0.664);" data-aos="fade">We have rewards for everyone
+                </h2>
+                <!-- <p class="tagline">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque, voluptas.</p> -->
+            </div>
+        </section><!-- .banner -->
+
+
+
+        <section id="play">
+            <h1>Download mCash NOW!</h1>
+            <div class="plays">
+                <div class="left">
+                    <p>India's Best Earning Application!</p>
+                </div>
+                <div class="right">
+                    <img src="./play3.jpeg" alt="">
+                </div>
+            </div>
+            <div class="plays revflex">
+                <div class="left">
+                    <p>Regular Login earns daily bonus!</p>
+                </div>
+                <div class="right ">
+                    <img src="./play1.jpeg" alt="">
+                </div>
+            </div>
+            <div class="plays">
+                <div class="left">
+                    <p>Perform tasks to earn coins!</p>
+                </div>
+                <div class="right">
+                    <img src="./play2.jpeg" alt="">
+                </div>
+            </div>
+            <div class="plays">
+                <div class="left">
+                    <p>Invite friends and earn together!</p>
+                </div>
+                <div class="right">
+                    <img src="./play4.png" alt="">
+                </div>
+            </div>
+        </section>
+        <!-- 
+        <section id="tasks">
+
+        </section> -->
+
+        <section id="about">
+            <h1>About</h1>
+            <div class="aboutcontent">
+                <p>You will get your first reward for free just for logging in to the app consecutively for the very
+                    first seven days.Do some simple new user tasks in the app and get further Coins.
+                </p>
+                <p>Withdraw Wallet Cash to your account after completing 3 simple tasks through India's best money
+                    Earning app.</p>
+                <p>You earn big cash rewards by inviting friends on mCash. On inviting your first friend you get ₹5 as
+                    soon as your friend logs in. On completing “Various Tasks", users can earn money and withdraw
+                    rewards immediately.</p>
+                <p>Our app is an entertainment app and we provide a wholesome experience for our users. We've integrated
+                    various games, tasks and activities on the application to make the user experience better and
+                    enhanced</p>
+                <hr>
+            </div>
+
+        </section>
+
+
+        <section id="contact">
+            <div class="content" data-aos="fade-up">
+                <h2 class="center">Contact Us</h2>
+                <p class="center contact-detail">
+                    We love your feedback.
+                    <br> Feel free to contact anytime.
+                </p>
+            </div>
+            <div class="cont" data-aos="fade-up">
+                <p>Email Now<span>:</span> <a href="feedback@mcash.fun">feedback@mcash.fun</a></p>
+                <!-- <p>Call me: <a href="tel:+918779035327">+918779035327</a></p> -->
+            </div>
+        </section>
+    </div>
+
+
+
+    <script>
+        const hamburger = document.getElementsByClassName("hamburger")[0]
+        const mobileNavs = document.getElementsByClassName("nav-links")[0]
+
+        var x = document.getElementById("ham").src;
+        hamburger.addEventListener("click", () => {
+            mobileNavs.classList.toggle("active");
+        })
+
+
+    </script>
+</body>
+
+</html>
